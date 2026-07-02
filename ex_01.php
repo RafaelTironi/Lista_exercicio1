@@ -8,10 +8,11 @@ function calcularFormula($x, $y){
         return "Não foi possivel realizar a divisão";
     }
 
-    $resultado = (pow($x, 2) + pow($y, 2)) / ($x +$y);
+    $resultado = ((pow($x, 2)) + pow($y, 2)) / ($x +$y);
     return $resultado;
 
 }
+
 
 $x = 10;
 $y = 5;
