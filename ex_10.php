@@ -28,9 +28,9 @@
     ];
  }
 
-    echo "Resultado do cálculo da média:" . "<br>";
-        $notas = [7, 8, 5, 6, 9];  
-        $resultado = calcularMedia($notas);
+echo "Resultado do cálculo da média:" . "<br>";
+    $notas = [7, 8, 5, 6, 9];  
+    $resultado = calcularMedia($notas);
                 echo "Maior nota: " . $resultado['maiorNota'] . "<br>";
                 echo "Menor nota: " . $resultado['menorNota'] . "<br>";
                 echo "Média: " . $resultado['media'] . "<br>";
