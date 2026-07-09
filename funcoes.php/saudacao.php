@@ -13,4 +13,6 @@ function gerarSaudacao($hora){
 
 $hora = 18;
 
+echo "Hora atual: $hora" . "<br>";
+
 echo gerarSaudacao($hora);
