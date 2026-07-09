@@ -7,6 +7,6 @@ function converterMoeda($valor, $cotacao){
 $valor = 500;
 $cotacao = 5;
 
-echo "Valor em reais: $valor";
-echo "Valor do dolar: $cotacao";
-echo "Valor em dolar:" .converterMoeda($valor, $cotacao);
+echo "Valor em reais: $valor" . "<br>";
+echo "Valor do dolar: $cotacao" . "<br>";
+echo "Valor em dolar:" . converterMoeda($valor, $cotacao);
