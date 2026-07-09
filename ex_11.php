@@ -7,11 +7,11 @@
         'minusculos' => mb_strtolower($texto, 'UTF-8'),
         'primeiraLetraMaiuscula' => mb_convert_case($texto, MB_CASE_TITLE, 'UTF-8'),
         'quantidadeCaracteres' => mb_strlen($texto, 'UTF-8')
-    ]
+    ];
 
  }
 
- $textoOriginal = "Denise, sai da live filha";
+ $textoOriginal = "Toca no gk fei";
  $resultados = formatarTexto($textoOriginal);
 
  echo "Texto em maiúsculas: " . $resultados['maiusculos'] . "<br>";
