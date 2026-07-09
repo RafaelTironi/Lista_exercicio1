@@ -3,14 +3,14 @@
 function validarSenha($senha){
 
     if(strlen($senha) >= 8){
-        return "Senha forte";
+        return "Senha forte.";
     }else{
-        return "Senha fraca";
+        return "Senha fraca.";
     }
 
 }
 
-$senha = 1234567;
+$senha = 12345678;
 
 echo "Senha: $senha <br>";
 echo validarSenha($senha);

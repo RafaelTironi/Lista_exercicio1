@@ -8,5 +8,7 @@ function validarEmail($email){
     }
 }
 
+$email = "joaozinho@gmail.com";
 
-validarEmail(joaozinho@gmail.com).
+echo "O email era: $email" . "<br>";
+echo "O email é válido: " . (validarEmail($email) ? "Sim" : "Não");
