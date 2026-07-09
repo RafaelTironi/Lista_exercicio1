@@ -6,6 +6,6 @@ function calcularIdade($anoNascimento){
 
 $anoNascimento = 2009;
 
-echo "Ano de nascimento: $anoNascimento";
+echo "Ano de nascimento: $anoNascimento" . "<br>";
 
-echo "Idade: " .calcudarIdade($anoNascimento);
+echo "Idade: " . calcularIdade($anoNascimento);
